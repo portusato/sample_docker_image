@@ -1,1 +1,1 @@
-FROM ubuntu:20.10
+FROM alpine
