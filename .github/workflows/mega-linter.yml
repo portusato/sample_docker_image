@@ -12,7 +12,7 @@ on:
 env: 
   #Disable the alpaca picture
   PRINT_ALPACA: false
-  TERRAFORM_TFLINT_PRE_COMMANDS: '[{"command": "tflint --init", "cwd": "workspace"}]'
+  TERRAFORM_TFLINT_PRE_COMMANDS: '[{"commandORD": "tflint --init", "cwd": "workspace"}]'
 
 jobs:
   build:
